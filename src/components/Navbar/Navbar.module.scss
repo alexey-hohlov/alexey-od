@@ -1,0 +1,13 @@
+.navbar {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, auto);
+    place-items: center;
+}
