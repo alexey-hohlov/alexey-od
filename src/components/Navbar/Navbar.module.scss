@@ -1,11 +1,16 @@
 .navbar {
+    // background: linear-gradient(
+    //     60deg,
+    //     rgba(84, 58, 183, 1) 0%,
+    //     rgba(0, 172, 193, 1) 100%
+    // );
+    background: #144272;
+
+    height: 70px;
     position: sticky;
     z-index: 1;
     top: 0;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.24);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4, auto);

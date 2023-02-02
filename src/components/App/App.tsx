@@ -5,10 +5,8 @@ import { About, Greetings } from '../../pages';
 const App = () => {
     return (
         <div className={styles.app}>
-            {/* <Navbar />
-            <About />
-            <About /> */}
             <Greetings />
+            <About />
         </div>
     );
 };

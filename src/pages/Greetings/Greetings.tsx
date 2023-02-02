@@ -8,13 +8,13 @@ const Greetings: React.FC = () => {
         <section className={styles.greetings}>
             <div className={styles.block}>
                 <div className={styles.text}>
-                    Hello I'm
-                    <span> Alexey Hohlov</span>
+                    Привет, меня зовут
+                    <span> Алексей Хохлов</span>
                     .
                     <br />
-                    I'm
+                    Я
                     <span> front-end </span>
-                    developer.
+                    разработчик.
                 </div>
                 <ArrowButton title={'Learn more'}/>
             </div>

@@ -14,7 +14,7 @@ code {
 
 * {
     box-sizing: border-box;
-    color: #ecf0f1;
+    color: #0a2647;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -28,7 +28,7 @@ code {
 
 @font-face {
     font-family: RalewayLightItallic;
-    src: url(../assets//fonts/Raleway/Raleway-LightItalic.ttf);
+    src: url(../assets/fonts/Raleway/Raleway-LightItalic.ttf);
 }
 
 @font-face {
@@ -39,6 +39,16 @@ code {
 @font-face {
     font-family: RalewayItallic;
     src: url(../assets//fonts/Raleway/Raleway-Italic.ttf);
+}
+
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url(../assets/fonts/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: RalewaySemiBoldItallic;
+    src: url(../assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf);
 }
 
 @font-face {
