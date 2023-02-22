@@ -1,5 +1,7 @@
-.about {
+.skills {
     height: 100vh;
+    width: auto;
+    background: #f5f5f5;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
@@ -17,28 +19,4 @@
     font-size: 3em;
     user-select: none;
     text-decoration: underline;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
-
-.photo {
-    height: 320px;
-    border-radius: 50%;
-}
-
-.text {
-    font-size: 1.5em;
-    width: 700px;
-    text-align: start;
-}
-
-.bullets {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
 }
